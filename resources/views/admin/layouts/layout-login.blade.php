@@ -12,7 +12,7 @@
     <div class="login-box">
         @include('admin.layouts.partials.laraspace-notifs')
         <div class="logo-main">
-            <a href="/"><img src="/assets/admin/img/logo-large.png" alt="Laraspace Logo"></a>
+            <a href="/"><img src="https://media.lovemondays.com.br/logos/6ee279/finnet-original.jpg" alt="Laraspace Logo"></a>
         </div>
         @yield('content')
         <div class="page-copyright">

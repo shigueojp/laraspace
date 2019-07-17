@@ -22,8 +22,8 @@ Route::get('/', [
 */
 
 Route::group([
-    'prefix' => 'admin',
-//    'middleware' => 'admin'
+//    'prefix' => 'admin',
+    'middleware' => 'admin'
 ], function () {
 
     // Dashboard
