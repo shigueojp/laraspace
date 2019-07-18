@@ -22,7 +22,7 @@ Route::get('/', [
 */
 
 Route::group([
-//    'prefix' => 'admin',
+    'prefix' => 'admin',
     'middleware' => 'admin'
 ], function () {
 

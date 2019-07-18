@@ -17,7 +17,7 @@ class AuthController extends Controller
     {
         if (User::login($request)) {
             flash()->success('Welcome to Project Finnet.');
-            if (Auth::user()->isAdmin()) {
+            if (Auth::user()->isAdmin() || Auth::user()->isUser()) {
                 return redirect()->to('/admin');
             } else {
                 return redirect()->to('/');
